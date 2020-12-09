@@ -4,51 +4,147 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Information</title>
   </head>
-
   <body class="m-4">
   
-    <header class="blog-header py-3">
-
+  <header class="blog-header py-3">
   <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="second.html">Inlägg <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="third.html">Information <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0 search2" id="searchform" method="get" action="index.html">
-        <input class="form-control mr-sm-2 search2" id="test" type="text" placeholder="Search"  name="search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <script type="text/javascript">
-        document.getElementById('searchform').onsubmit = function() {
-            window.location = 'file:///C:/Users/alle0/OneDrive/Skrivbord/Projekt1 Webb/' + document.getElementById('test').value + '.html';
-            return false;
-        }
-        </script>
-    </div>
-  </nav>
-
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="second.html">Inlägg <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="third.html">Information <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0 search2" id="searchform" method="get" action="index.html">
+          <input class="form-control mr-sm-2 search2" id="test" type="text" placeholder="Search"  name="search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <script type="text/javascript">
+          document.getElementById('searchform').onsubmit = function() {
+              window.location = 'file:///C:/Users/alle0/OneDrive/Skrivbord/Projekt1 Webb/' + document.getElementById('test').value + '.html';
+              return false; }
+          </script>
+      </div>
+    </nav>
   </header>
-  <main>
-  </main>
+<main>
+    <div class="wrapper2">
+      <h1>Information And Contacts</h1>
+      <h2>Alexander Lehtonen Hebert</h2>
+      <h3>___________________________</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus aspernatur voluptate quae aperiam, magnam natus. Laboriosam odit reiciendis quia a molestiae, ut sit! Reiciendis eligendi alias, assumenda nemo aut veniam.<hr></p>
+    </div>
+    <div class="container">
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <div class="img-container">
+                      <img src="images/instagram.png" aria-hidden="true" class="img1"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <h3>
+                      <a href="https://www.instagram.com/alex_lehtonen/" target="_blank">alex_lehtonen</a>
+                  </h3>
+                  <p>This is my instagram where i never upload</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <div class="icon">
+                      <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <h3>
+                      <a href="https://twitter.com/?lang=en" target="_blank">alex_lehtonen</a>
+                  </h3>
+                  <p>This is twitter where i dont even have an account.</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <div class="icon">
+                      <i class="fa fa-github-square" aria-hidden="true"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <h3>
+                      <a href="https://github.com/Alex-LH/Projekt1-Webbutveckling" target="_blank">Alex-LH</a>
+                  </h3>
+                  <p>This is where my files for this site are.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="wrapper2">
+    <h1>Archives</h1>
+    <h3>______________</h3>
+  </div>
+  <div class="container2">
+    <div class="card2">
+      <h3>January 2020</h3>
+      <p class="small">This card holds all Blogs from January 2020</p>
+      <div class="hide">
+        <p><a href="inlägg.html">>Inlägg 1</a></p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <h3>February 2020</h3>
+      <p class="small">This card holds all Blogs from February 2020</p>
+      <div class="hide">
+        <p><a href="inlägg2.html">>Inlägg 2</a></p>
+        <p><a href="inlägg3.html">>Inlägg 3</a></p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <h3>Mars 2020</h3>
+      <p class="small">This card holds all Blogs from Mars 2020</p>
+      <div class="hide">
+        <p><a href="inlägg4.html">>Inlägg 4</a></p>
+      </div>
+    </div>
+
+    <div class="card2">
+      <h3>April 2020</h3>
+      <p class="small">This card holds all Blogs from April 2020</p>
+      <div class="hide">
+        <p><a href="inlägg5.html">>Inlägg 5</a></p>
+        <p><a href="inlägg6.html">>Inlägg 6</a></p>
+      </div>
+    </div>
+  </div>
+  
+
+
+</main>
       <footer id="footer-Section">
         <div class="MyBlog">
           <h2>My Blog</h4>
@@ -60,7 +156,7 @@
               <p>Social Medias</p>
             <ul>
               <li><a href="https://www.instagram.com/">Instagram</a></li>
-              <li><a href="https://www.facebook.com/">Facebook</a></li>
+              <li><a href="https://github.com/Alex-LH/Projekt1-Webbutveckling">GitHub</a></li>
               <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
             </ul>
         </div>   
