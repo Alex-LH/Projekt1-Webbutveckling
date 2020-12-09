@@ -193,6 +193,10 @@ ol.gradient-list a {
   font-size: 17px;
 }
 
+.blog-pagination {
+  margin-top: 20px;
+}
+
 footer {
   width: 100%;
 }
