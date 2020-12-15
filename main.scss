@@ -155,11 +155,9 @@ ol.gradient-list {
     font-size: 17px;
   }
 }
-
 .blog-pagination {
   margin-top: 20px;
 }
-
 .container {
   width: 1000px;
   position: relative;
@@ -168,6 +166,7 @@ ol.gradient-list {
   .card {
     position: relative;
     border-radius: 10px;
+    margin: 10px;
     .icon {
       position: absolute;
       top: 0;
@@ -276,7 +275,6 @@ ol.gradient-list {
     }
   }
 }
-
 .container2 {
   width: 100%;
   height: 100%;
@@ -299,9 +297,6 @@ ol.gradient-list {
     border: 1px solid #f2f8f9;
     .hide {
       display: none;
-      p:link {
-        display: none;
-      }
     }
   }
   .card2:hover {
@@ -316,7 +311,6 @@ ol.gradient-list {
     }
   }
 }
-
 footer {
   width: 100%;
   .MyBlog {

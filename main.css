@@ -232,6 +232,7 @@ ol.gradient-list a {
 .container .card {
   position: relative;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .container .card .icon {
@@ -403,10 +404,6 @@ ol.gradient-list a {
 }
 
 .container2 .card2 .hide {
-  display: none;
-}
-
-.container2 .card2 .hide p:link {
   display: none;
 }
 
